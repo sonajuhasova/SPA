@@ -4,10 +4,36 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>SPA</title>
+     <link rel="stylesheet" href="css/-.css">
 </head>
 
-<body>
+<body onhashchange="pageChange()">
+     <!-- Tab bar navigation -->
+     <nav class="tabbar">
+          <a href="#info">Info</a>
+          <a href="#home">Home</a>
+          <a href="#favourites">Favourites</a>
+     </nav>
+
+     <!-- SPA pages -->
+     <!-- Info page -->
+     <section id="info" class="page">
+          <h2>Prevent Infection</h2>
+     </section>
+
+     <!-- Home page -->
+     <section id="home" class="page">
+     </section>
+
+     <!-- Favourites page -->
+     <section id="favourites" class="page">
+     </section>
+
+     <!-- SPA functionality -->
+     <script src="js/spa.js"></script>
+     <!-- Main JS file -->
+     <script src="js/main.js"></script>
 
 </body>
 
